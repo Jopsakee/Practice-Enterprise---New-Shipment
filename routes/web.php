@@ -16,3 +16,6 @@ use Illuminate\Support\Facades\Route;
 Route::get('createNewShipment', function () {
     return view('createNewShipment');
 });
+
+Route::get('insert','App\Http\Controllers\Controller@insertform');
+Route::post('create','App\Http\Controllers\Controller@insert');
