@@ -13,7 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('createNewShipment', function () {
+Route::get('/', function () {
     return view('createNewShipment');
 });
 
