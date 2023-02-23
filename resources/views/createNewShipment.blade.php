@@ -1,7 +1,6 @@
 @extends('layouts.layout')
-
 @section('header')
-    
+    <h1>Create new shipment</h1>
 @stop
 
 @section('content')
